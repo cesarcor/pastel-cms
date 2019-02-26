@@ -37,7 +37,11 @@ class App extends Component {
           <Sidebar></Sidebar>
 
           <main>
-            <Stories stories={this.state.stories} />
+
+            <section className="story-container">
+              <Stories stories={this.state.stories} />
+            </section>
+
           </main>
 
       </div>

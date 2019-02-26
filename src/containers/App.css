@@ -7,9 +7,10 @@ html{
   background-color: #2E2F3C;
 }
 
-body{
+html,
+body,
+#root{
   height: 100%;
-  margin: 0;
 }
 
 /* ------------------
@@ -22,6 +23,17 @@ LAYOUT ( TEMPORARY )
   display: grid;
   grid-template-columns: 25% 1fr;
   min-height: 100%;
+}
+
+.story-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.story-container div{
+  background-color: #AF2;
 }
 
 .sidebar{
