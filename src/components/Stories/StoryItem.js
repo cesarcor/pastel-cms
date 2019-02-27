@@ -3,9 +3,29 @@ import React from 'react';
 const storyItem = (props) => {
 
       return(
-        <div>
-         <h2>{ props.story.title }</h2>
+
+        <div className = "story-item">
+
+           <div className = "story-item__img-contain">
+
+             <img src = { props.story.img } alt = { props.story.title } />
+
+           </div>
+
+           <div className = "story-item__content">
+
+             <h2 className = "story-item-heading">{ props.story.title }</h2>
+
+             <p className = "story-item-views">{ props.story.views }</p>
+
+             <span className = "story-item-comments">{ props.story.comments }</span>
+
+           </div>
+
+
+
         </div>
+
       )
 
 }

@@ -1,6 +1,8 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: helvetica;
+  font-weight: 100;
 }
 
 html{
@@ -11,13 +13,46 @@ html,
 body,
 #root{
   height: 100%;
+  overflow-x: hidden;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+/* ------------------
+
+NAV MENU ( TEMPORARY!! )
+
+--------------------- */
+
+.nav-menu ul li{
+  margin-bottom: 20px;
+}
+
+.nav-menu ul li a:hover{
+  opacity: 1;
+}
+
+.nav-menu ul li a{
+  color: #FFFFFF;
+  opacity: 0.5;
 }
 
 /* ------------------
 
-LAYOUT ( TEMPORARY )
+LAYOUT ( TEMPORARY!! )
 
 --------------------- */
+
+.main-content-area{
+  padding: 50px;
+}
 
 .App{
   display: grid;
@@ -33,9 +68,56 @@ LAYOUT ( TEMPORARY )
 }
 
 .story-container div{
-  background-color: #AF2;
+  width: 200px;
+  overflow: hidden;
 }
+
+.story-item{
+  border-radius: 10px;
+  position: relative;
+}
+
+.story-item__img-contain{
+  height: 300px;
+}
+
+.story-item__img-contain img{
+  object-fit: contain;
+}
+
+.story-item__content{
+  position: absolute;
+  bottom: 50px;
+}
+
+.story-item-views,
+.story-item-comments,
+.story-item-heading{
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.story-item-heading{
+  font-size: 16px;
+}
+
+.story-item-views,
+.story-item-comments{
+  font-size: 12px;
+}
+
+
+
+
+
+
+/* ------------------
+
+SIDEBAR ( TEMPORARY!!! )
+
+--------------------- */
 
 .sidebar{
   background-color: #22222C;
+  padding: 40px 20px;
 }
