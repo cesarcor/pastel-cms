@@ -2,28 +2,54 @@ import React, {Component} from 'react';
 import Sidebar from '../components/Sidebar/Sidebar';
 import Stories from '../components/Stories/Stories';
 import './App.css';
+import img_1 from '../assets/images/img_1.jpg';
+import img_2 from '../assets/images/img_2.jpg';
+import img_3 from '../assets/images/img_3.jpg';
+import img_4 from '../assets/images/img_4.jpg';
+
 
 class App extends Component {
 
+
+  /*
+
+    All content as state cause' no backend :)
+
+  */
+ 
   state = {
     stories: [
 
       {
+        id: 0,
+        title: 'Create New Story',
+        views: 13,
+        comments: 1,
+        img: img_4,
+      },
+
+      {
         id: 1,
-        title: 'Getting the meat',
-        views: 13
+        title: 'She folded her handkerchief neatly.',
+        views: 13,
+        comments: 1,
+        img: img_1,
       },
 
       {
         id: 2,
         title: 'Stuff to do at midnight',
-        views: 21
+        views: 21,
+        comments: 2,
+        img: img_2,
       },
 
       {
         id: 3,
         title: 'Hey, what year is it?',
-        views: 34
+        views: 34,
+        comments: 3,
+        img: img_3,
       }
 
     ]
@@ -36,7 +62,7 @@ class App extends Component {
 
           <Sidebar></Sidebar>
 
-          <main>
+          <main className = "main-content-area">
 
             <section className="story-container">
               <Stories stories={this.state.stories} />
