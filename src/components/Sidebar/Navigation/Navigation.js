@@ -3,7 +3,7 @@ import React from 'react';
 const Navigation = (props) => {
 
   return(
-    <nav>
+    <nav className = "nav-menu">
       <ul>
         <li><a href="#">Dashboard</a></li>
         <li><a href="#">Stories</a></li>
