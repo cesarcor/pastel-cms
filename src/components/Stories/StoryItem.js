@@ -14,7 +14,7 @@ const storyItem = (props) => {
 
            <div className = "story-item__content">
 
-             <h2 className = "story-item-heading">{ props.story.title }</h2>
+             <h3 className = "story-item-heading">{ props.story.title }</h3>
 
              <p className = "story-item-views">{ props.story.views }</p>
 
