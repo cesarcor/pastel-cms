@@ -60,11 +60,16 @@ LAYOUT ( TEMPORARY!! )
   min-height: 100%;
 }
 
+.p-section{
+  margin: 20px 0;
+}
+
+.overview,
 .story-container{
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .story-container div{
