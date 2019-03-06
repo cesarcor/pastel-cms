@@ -72,50 +72,6 @@ LAYOUT ( TEMPORARY!! )
   justify-content: space-between;
 }
 
-.story-container div{
-  width: 200px;
-  overflow: hidden;
-}
-
-.story-item{
-  border-radius: 10px;
-  position: relative;
-}
-
-.story-item__img-contain{
-  height: 300px;
-}
-
-.story-item__img-contain img{
-  object-fit: contain;
-}
-
-.story-item__content{
-  position: absolute;
-  bottom: 50px;
-}
-
-.story-item-views,
-.story-item-comments,
-.story-item-heading{
-  color: #FFFFFF;
-  text-align: center;
-}
-
-.story-item-heading{
-  font-size: 16px;
-}
-
-.story-item-views,
-.story-item-comments{
-  font-size: 12px;
-}
-
-
-
-
-
-
 /* ------------------
 
 SIDEBAR ( TEMPORARY!!! )
