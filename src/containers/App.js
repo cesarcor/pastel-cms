@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import Heading from '../components/Heading/Heading';
 import Sidebar from '../components/Sidebar/Sidebar';
-import Stories from '../components/Stories/Stories';
-import CreateStoryButton from '../components/Stories/CreateStoryButton';
+import Stories from '../components/Stories/Stories/Stories';
+import CreateStoryButton from '../components/Stories/CreateStoryButton/CreateStoryButton';
 import Overview from '../components/Overview/Overview';
 import './App.css';
 import img_1 from '../assets/images/img_1.jpg';
