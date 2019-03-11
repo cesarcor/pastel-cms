@@ -1,4 +1,7 @@
 import React from 'react';
+import { ReactComponent as CommentSVG } from '../../../assets/svgs/comments.svg';
+import { ReactComponent as ViewsSVG } from '../../../assets/svgs/views.svg';
+
 
 const storyItem = (props) => {
 
@@ -16,9 +19,10 @@ const storyItem = (props) => {
 
              <h3 className = "story-item-heading">{ props.story.title }</h3>
 
-             <p className = "story-item-views">{ props.story.views }</p>
-
-             <p className = "story-item-comments">{ props.story.comments }</p>
+             <ul className = "story-item-meta">
+               <li className = "story-item-views"><ViewsSVG /> { props.story.views }</li>
+               <li className = "story-item-comments"><CommentSVG /> { props.story.comments }</li>
+             </ul>
 
            </div>
 
