@@ -10,7 +10,6 @@ import img_2 from '../assets/images/img_2.jpg';
 import img_3 from '../assets/images/img_3.jpg';
 import img_4 from '../assets/images/img_4.jpg';
 
-
 class App extends Component {
 
   /*

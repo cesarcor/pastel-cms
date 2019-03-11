@@ -9,7 +9,6 @@
   cursor: pointer;
 }
 
-
 .story-item__img-contain{
   height: 300px;
   transition: 0.5s ease-out all;
@@ -45,7 +44,19 @@
   font-size: 14px;
 }
 
+.story-item-meta{
+
+}
+
 .story-item-views,
 .story-item-comments{
   font-size: 12px;
+  width: 50%;
+  display: inline-block;
+}
+
+.story-item-views svg,
+.story-item-comments svg{
+  width: 10px;
+  fill: #FFFFFF;
 }
