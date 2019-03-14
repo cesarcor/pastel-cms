@@ -7,7 +7,7 @@ const createStoryButton = props => {
       <div className = "create-story">
 
         <button>
-          <span>+ </span>
+          <span>+ </span><br/>
           <span>Create Story</span>
         </button>
 
