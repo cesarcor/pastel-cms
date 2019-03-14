@@ -16,13 +16,13 @@ const overview = props => {
 
       <div className = "overview-item">
 
-        <Popular />
+        <Trends />
 
       </div>
 
       <div className = "overview-item">
 
-        <Trends />
+        <Popular />
 
       </div>
 
