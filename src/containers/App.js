@@ -53,8 +53,7 @@ class App extends Component {
     return (
       <div className = "App" >
 
-          <Sidebar></Sidebar>
-
+          <Sidebar />
           <main className = "main-content-area">
 
             <section className="p-section">
