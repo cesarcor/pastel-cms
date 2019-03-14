@@ -3,6 +3,7 @@
   padding: 0;
   font-family: helvetica;
   font-weight: 100;
+  line-height: 1.35;
 }
 
 html{
@@ -24,6 +25,12 @@ a{
   text-decoration: none;
 }
 
+.overview__text{
+  opacity: 0.5;
+  font-size: 12px;
+  text-align: center;
+  color: #FFFFFF;
+}
 
 /* ------------------
 
@@ -72,6 +79,11 @@ LAYOUT ( TEMPORARY!! )
   justify-content: space-between;
 }
 
+.overview-item{
+  position: relative;
+  flex-grow: 1;
+}
+
 /* ------------------
 
 SIDEBAR ( TEMPORARY!!! )
@@ -80,5 +92,10 @@ SIDEBAR ( TEMPORARY!!! )
 
 .sidebar{
   background-color: #22222C;
-  padding: 40px 20px;
+  padding: 60px 25px;
+}
+
+.sidebar-contain{
+  height: 100%;
+  position: relative;
 }
