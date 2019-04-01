@@ -12,17 +12,17 @@ const trends = props => {
 
           <div className = "trend-data-item">
             <span>124</span>
-            <span>Stories</span>
+            <span class="overview__text">Stories</span>
           </div>
 
           <div className = "trend-data-item">
             <span>14k</span>
-            <span>Views</span>
+            <span class="overview__text">Views</span>
           </div>
 
           <div className = "trend-data-item">
             <span>1m 21sec</span>
-            <span>Av. Session Duration</span>
+            <span class="overview__text">Av. Session Duration</span>
           </div>
 
         </div>
