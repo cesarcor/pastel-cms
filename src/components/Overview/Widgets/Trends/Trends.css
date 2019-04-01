@@ -8,3 +8,7 @@
   display: block;
   text-align: center;
 }
+
+.trend-data-item span:first-of-type{
+  font-size: 22px;
+}
