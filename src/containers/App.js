@@ -4,6 +4,7 @@ import Sidebar from '../components/Sidebar/Sidebar';
 import Stories from '../components/Stories/Stories/Stories';
 import CreateStoryButton from '../components/Stories/CreateStoryButton/CreateStoryButton';
 import Overview from '../components/Overview/Overview';
+import MaintenanceToggle from '../components/MaintenanceToggle/MaintenanceToggle';
 import './App.css';
 import img_1 from '../assets/images/img_1.jpg';
 import img_2 from '../assets/images/img_2.jpg';
@@ -59,6 +60,7 @@ class App extends Component {
             <section className="p-section">
 
               <Heading>Stories</Heading>
+              <MaintenanceToggle/>
 
               <div className="story-container">
                 <CreateStoryButton />
