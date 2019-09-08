@@ -1,0 +1,15 @@
+.btn{
+    background: rgb(2,0,36);
+    background: linear-gradient(59deg, rgba(2,0,36,1) 0%, rgba(122,119,255,1) 0%, rgba(149,115,243,1) 54%, rgba(172,112,233,1) 100%);
+    color: #FFFFFF;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 12px;
+    transition: all ease-out 0.3s;
+  }
+  
+  .btn:hover{
+    transition: all ease-in 0.3s;
+    background: linear-gradient(59deg, rgba(2,0,36,1) 0%, rgba(149,115,243,1) 0%, rgba(172,112,233,1) 54%, rgba(122,119,255,1) 100%);
+  }
+  
