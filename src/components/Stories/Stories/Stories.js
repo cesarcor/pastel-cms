@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Stories.css';
+import storyStyles from './Stories.module.css';
 import StoryItem from './StoryItem.js';
 
 class Stories extends Component {
@@ -8,7 +8,7 @@ class Stories extends Component {
 
     return this.props.stories.map((story) => (
 
-        <article>
+        <article className = {storyStyles['story-container']}>
 
             <StoryItem key={story.id} story={story}/>
 

@@ -14,7 +14,7 @@
   transition: 0.5s ease-out all;
 }
 
-.story-item__img-contain img{
+.story-item__img{
   object-fit: contain;
   width: auto;
   height: 300px;
@@ -42,10 +42,6 @@
 
 .story-item-heading{
   font-size: 14px;
-}
-
-.story-item-meta{
-
 }
 
 .story-item-views,

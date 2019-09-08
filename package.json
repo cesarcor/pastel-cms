@@ -1,11 +1,11 @@
 {
   "name": "pastel-cms",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
-    "react-scripts": "2.1.5"
+    "react-scripts": "3.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
