@@ -1,10 +1,10 @@
 import React from 'react';
-import './MaintenanceToggle.css'
+import styles from './MaintenanceToggle.module.scss';
 
 const maintenanceToggle = props => {
 
 return(
-  <div className="maintenance-mode">
+  <div className={styles["maintenance-mode"]}>
     <label>
     Maintenance Mode
     <input type="radio" />

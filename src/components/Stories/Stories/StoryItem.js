@@ -1,7 +1,7 @@
 import React from 'react';
 import { ReactComponent as CommentSVG } from '../../../assets/svgs/comments.svg';
 import { ReactComponent as ViewsSVG } from '../../../assets/svgs/views.svg';
-import storyStyles from './Stories.module.css';
+import storyStyles from './Stories.module.scss';
 
 
 const storyItem = (props) => {

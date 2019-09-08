@@ -1,28 +1,28 @@
 import React from 'react';
-import './Trends.css';
+import trendStyles from './Trends.module.scss';
 
 const trends = props => {
 
     return(
-      <div className = "w-trends">
+      <div className = {trendStyles["w-trends"]}>
 
-        <h4 className = "overview__text">Active Users Trending Over Time</h4>
+        <h4 className = {trendStyles["overview__text"]}>Active Users Trending Over Time</h4>
 
-        <div className = "trend-data__contain">
+        <div className = {trendStyles["trend-data__contain"]}>
 
-          <div className = "trend-data-item">
+          <div className = {trendStyles["trend-data-item"]}>
             <span>124</span>
-            <span className="overview__text">Stories</span>
+            <span className= {trendStyles["overview__text"]}>Stories</span>
           </div>
 
-          <div className = "trend-data-item">
+          <div className = {trendStyles["trend-data-item"]}>
             <span>14k</span>
-            <span className="overview__text">Views</span>
+            <span className= {trendStyles["overview__text"]}>Views</span>
           </div>
 
-          <div className = "trend-data-item">
+          <div className = {trendStyles["trend-data-item"]}>
             <span>1m 21sec</span>
-            <span className="overview__text">Av. Session Duration</span>
+            <span className= {trendStyles["overview__text"]}>Av. Session Duration</span>
           </div>
 
         </div>

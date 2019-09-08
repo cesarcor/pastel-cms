@@ -1,14 +1,14 @@
 import React from 'react';
+import popularStyles from './Popular.module.scss';
 import popularIMG from '../../../../assets/images/img_1.jpg';
-import './Popular.css';
 import StoryItem from '../../../Stories/Stories/StoryItem';
 
 const popular = props => {
 
     return(
-      <div className = "w-popular">
+      <div className = {popularStyles["w-popular"]}>
 
-        <h4 className = "overview__text">Popular Stories</h4>
+        <h4 className = {popularStyles["overview__text"]}>Popular Stories</h4>
 
       </div>
     );

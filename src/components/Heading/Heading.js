@@ -1,10 +1,10 @@
 import React from 'react';
-import './Heading.css';
+import headingStyles from './Heading.module.scss';
 
 const heading = props => {
 
   return(
-    <h2 className="p-heading">{props.children}</h2>
+    <h2 className={headingStyles['p-heading']}>{props.children}</h2>
   );
 
 }

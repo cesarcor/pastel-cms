@@ -1,9 +1,9 @@
 import React from 'react';
-import './Notification.css';
+import notificationStyles from './Notification.module.scss';
 
 const notification = props => {
 
-    return(<span className="notification">12</span>);
+    return(<span className = {notificationStyles["notification"]}>12</span>);
     
 }
 

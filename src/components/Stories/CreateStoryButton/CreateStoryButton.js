@@ -1,10 +1,10 @@
 import React from 'react';
-import './CreateStoryButton.css';
+import cSBStyles from './CreateStoryButton.module.scss';
 
 const createStoryButton = props => {
 
     return(
-      <div className = "create-story">
+      <div className = { cSBStyles['create-story'] }>
 
         <button>
           <span>+ </span><br/>

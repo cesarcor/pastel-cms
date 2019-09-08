@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import storyStyles from './Stories.module.css';
+import storyStyles from './Stories.module.scss';
 import StoryItem from './StoryItem.js';
 
 class Stories extends Component {
