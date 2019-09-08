@@ -1,0 +1,14 @@
+.trend-data__contain{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.trend-data-item span{
+  display: block;
+  text-align: center;
+}
+
+.trend-data-item span:first-of-type{
+  font-size: 22px;
+}
