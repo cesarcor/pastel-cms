@@ -1,6 +1,8 @@
 import React from 'react';
 import { ReactComponent as CommentSVG } from '../../../assets/svgs/comments.svg';
 import { ReactComponent as ViewsSVG } from '../../../assets/svgs/views.svg';
+import { ReactComponent as Locked } from '../../../assets/svgs/padlock-locked.svg';
+import { ReactComponent as Unlocked } from '../../../assets/svgs/padlock-unlocked.svg';
 import storyStyles from './Stories.module.scss';
 
 
@@ -9,6 +11,10 @@ const storyItem = (props) => {
       return(
 
         <div className = { storyStyles['story-item'] }>
+
+           <div className = {storyStyles['story-item__status']}>
+             <Locked />
+           </div>
 
            <div className = { storyStyles['story-item__img-contain'] }>
 

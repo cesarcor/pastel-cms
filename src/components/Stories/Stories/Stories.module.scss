@@ -1,4 +1,4 @@
-.story-container div{
+.story-container div:not(.story-item__status){
   width: 200px;
   overflow: hidden;
 }
@@ -7,6 +7,25 @@
   border-radius: 10px;
   position: relative;
   cursor: pointer;
+
+  &__status{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: inline-block;
+    background-color: #FFFFFF;
+    color: purple;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 100;
+
+    svg{
+      max-width: 13px;
+      max-height: 29px;
+    }
+  }
 
   &__img-contain{
     height: 300px;
