@@ -1,5 +1,16 @@
-.nav-menu ul li a svg{
-  width: 12px;
-  height: auto;
-  fill: #FFF;
+.nav-menu {
+  ul {
+    li {
+      a{
+        color: #FFFFFF;
+        
+        svg{
+          width: 12px;
+          height: auto;
+          fill: #FFF;
+        }
+      }
+    }
+  }
+
 }
