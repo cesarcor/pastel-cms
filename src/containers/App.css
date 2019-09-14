@@ -84,19 +84,3 @@ LAYOUT ( TEMPORARY!! )
   position: relative;
   flex-grow: 1;
 }
-
-/* ------------------
-
-SIDEBAR ( TEMPORARY!!! )
-
---------------------- */
-
-.sidebar{
-  background-color: #22222C;
-  padding: 60px 25px;
-}
-
-.sidebar-contain{
-  height: 100%;
-  position: relative;
-}
