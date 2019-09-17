@@ -1,0 +1,77 @@
+@import "./variables";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    font-weight: 100;
+    line-height: 1.35;
+  }
+  
+  html{
+    background-color: #2E2F3C;
+  }
+  
+  html,
+  body,
+  #root{
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  ul li{
+    list-style-type: none;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .overview__text{
+    opacity: 0.5;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  
+  /* ------------------
+  
+  LAYOUT
+  
+  --------------------- */
+  
+  .main-content-area{
+    padding: 50px;
+  }
+  
+  .app-contain{
+    display: grid;
+    grid-template-columns: 25% 1fr;
+    min-height: 100%;
+  
+    @media (max-width: 768px){
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  .p-section{
+    margin: 20px 0;
+  }
+  
+  
+  @mixin item-layout(){
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    color: #FFFFFF;
+  }
+
+  .overview{
+    @include item-layout();
+  }
+  
+  .overview-item{
+    position: relative;
+    flex-grow: 1;
+  }
