@@ -6,11 +6,16 @@
       a{
         color: #FFFFFF;
         font-size: 14px;
+        opacity: 0.5;
 
         svg{
           width: 12px;
           height: auto;
           fill: #FFF;
+        }
+
+        &:hover{
+          opacity: 1;
         }
       }
     }
