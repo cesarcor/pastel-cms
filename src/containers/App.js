@@ -5,7 +5,7 @@ import Stories from '../components/Stories/Stories/Stories';
 import CreateStoryButton from '../components/Stories/CreateStoryButton/CreateStoryButton';
 import Overview from '../components/Overview/Overview';
 import MaintenanceToggle from '../components/MaintenanceToggle/MaintenanceToggle';
-import './App.css';
+import '../styles/Global.scss';
 import img_1 from '../assets/images/img_1.jpg';
 import img_2 from '../assets/images/img_2.jpg';
 import img_3 from '../assets/images/img_3.jpg';
@@ -52,7 +52,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className = "App" >
+      <div className = "app-contain" >
 
           <Sidebar />
           <main className = "main-content-area">
