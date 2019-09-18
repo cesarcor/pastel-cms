@@ -1,16 +1,17 @@
 .w-online{
-  color: #FFFFFF;
+  color: #FEFEFE;
   text-align: center;
-}
 
-.w-online__now{
-  font-size: 60px;
-}
+  &__now{
+    font-size: 120px;
+  }
 
-.w-online__percentage{
-  position: absolute;
-}
+  &__percentage{
+    position: absolute;
+  }
 
-.w-online__text{
-  margin: 20px 0;
+  &__text{
+    margin: 20px 0;
+  }
+
 }

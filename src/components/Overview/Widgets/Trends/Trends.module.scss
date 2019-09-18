@@ -4,11 +4,15 @@
   justify-content: space-between;
 }
 
-.trend-data-item span{
-  display: block;
-  text-align: center;
-}
+.trend-data-item{
 
-.trend-data-item span:first-of-type{
-  font-size: 22px;
-}
+  span{
+    display: block;
+    text-align: center;
+
+    &:first-of-type{
+      font-size: 22px;
+    }
+  }
+
+} 
