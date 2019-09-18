@@ -1,0 +1,19 @@
+
+<svg width="470px" height="125px" viewBox="0 0 470 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="95.7888885%" y1="48.9462956%" x2="2.35667709%" y2="51.6461768%" id="linearGradient-1">
+            <stop stop-color="#F769BF" offset="0%"></stop>
+            <stop stop-color="#A071E0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-99.000000, -94.000000)">
+            <g id="Group" transform="translate(102.000000, 94.000000)">
+                <path d="M0.170499922,97.5 L466.5,97.5" id="Line" stroke="#ECECEC" stroke-linecap="square" stroke-dasharray="4"></path>
+                <path d="M371.5,0.5 L371.5,124.5" id="Line-2" stroke="#ECECEC" stroke-linecap="square" stroke-dasharray="4"></path>
+                <path d="M0.170499922,95.3758969 C11.7805484,109.429 29.7483694,114.113368 54.0739631,109.429 C90.5623536,102.402448 112.466723,111.553103 131.113235,97.5 C149.759748,83.446897 168.631417,80.53762 202.563871,90.3067044 C236.496324,100.075789 231.78257,79.1482945 262.278189,69.0888628 C292.773807,59.029431 358.344459,77.6144819 371.4355,49.8896022" id="Path" stroke="url(#linearGradient-1)" stroke-width="5" stroke-linecap="round"></path>
+                <circle id="Oval" stroke="#FFFFFF" stroke-width="5" fill="#F769BF" cx="371.5" cy="49.5" r="7.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,5 +1,7 @@
 import React from 'react';
 import trendStyles from './Trends.module.scss';
+import { ReactComponent as GraphSVG } from '../../../../assets/svgs/graph.svg';
+
 
 const trends = props => {
 
@@ -7,6 +9,10 @@ const trends = props => {
       <div className = {trendStyles["w-trends"]}>
 
         <h4 className = {trendStyles["overview__text"]}>Active Users Trending Over Time</h4>
+
+        <div>
+          <GraphSVG />
+        </div>
 
         <div className = {trendStyles["trend-data__contain"]}>
 
