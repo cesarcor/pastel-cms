@@ -6,23 +6,27 @@ import Trends from './Widgets/Trends/Trends';
 const overview = props => {
 
   return(
-    <div className = "overview">
+    <div className = "overview-container">
 
-      <div className = "overview-item">
+      <div className = "overview">
 
-        <Online />
+        <div className = "overview-item">
 
-      </div>
+          <Online />
 
-      <div className = "overview-item">
+        </div>
 
-        <Trends />
+        <div className = "overview-item">
 
-      </div>
+          <Trends />
 
-      <div className = "overview-item">
+        </div>
 
-        <Popular />
+        <div className = "overview-item">
+
+          <Popular />
+
+        </div>
 
       </div>
 
