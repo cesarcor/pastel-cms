@@ -26,11 +26,9 @@ class App extends Component {
 
             <section className="p-section">
 
-              <Heading>Overview</Heading>
+            <Heading>Audience Overview</Heading>
 
-            <div className = "overview-container">
-              <Overview />
-            </div>
+            <Overview />
 
             </section>
 
