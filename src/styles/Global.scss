@@ -39,6 +39,14 @@
   LAYOUT
   
   --------------------- */
+
+  @mixin item-layout(){
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    color: #FFFFFF;
+  }
   
   .main-content-area{
     padding: 50px;
@@ -46,7 +54,7 @@
   
   .app-contain{
     display: grid;
-    grid-template-columns: 25% 1fr;
+    grid-template-columns: 280px 1fr;
     min-height: 100%;
   
     @media (max-width: 768px){
@@ -56,15 +64,6 @@
   
   .p-section{
     margin: 20px 0;
-  }
-  
-  
-  @mixin item-layout(){
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    color: #FFFFFF;
   }
 
   .overview{

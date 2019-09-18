@@ -1,6 +1,19 @@
-.story-container div:not(.story-item__status){
-  width: 200px;
-  overflow: hidden;
+@import "../../../styles/global.scss";
+
+.story-container{
+
+  @include item-layout();
+
+  div:not(.story-item__status){
+    width: 200px;
+    overflow: hidden;
+  } 
+
+  @media (max-width: 768px){
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
 }
 
 .story-item{
