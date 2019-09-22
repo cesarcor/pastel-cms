@@ -1,0 +1,10 @@
+@import "../../styles/global.scss";
+
+.overview{
+    @include item-layout();
+  }
+  
+.overview-item{
+  position: relative;
+  flex-grow: 1;
+}
