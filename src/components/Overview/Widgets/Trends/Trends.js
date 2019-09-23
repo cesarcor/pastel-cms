@@ -8,7 +8,7 @@ const trends = props => {
     return(
       <div className = {trendStyles["w-trends"]}>
 
-        <h4 className = {trendStyles["overview__text"]}>Active Users Trending Over Time</h4>
+        <h4 className = {trendStyles["w-trends__heading"]}>Active Users Trending Over Time</h4>
 
         <div>
           <GraphSVG />

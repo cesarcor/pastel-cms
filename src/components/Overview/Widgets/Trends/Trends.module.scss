@@ -2,6 +2,15 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  max-width: 470px;
+}
+
+.w-trends{
+  &__heading{
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
 }
 
 .trend-data-item{
@@ -11,8 +20,13 @@
     text-align: center;
 
     &:first-of-type{
-      font-size: 22px;
+      font-size: 20px;
+    }
+
+    &:last-of-type{
+      opacity: 0.5;
+      font-size: 12px;
     }
   }
 
-} 
+}

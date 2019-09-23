@@ -7,14 +7,14 @@ const online = props => {
 
       <div className = {onlineStyles['w-online']}>
 
-        <h4 className = {onlineStyles['overview__text']}>Users Online Right Now</h4>
+        <h4 className = {onlineStyles['w-online__heading']}>Users Online Right Now</h4>
 
         <div>
           <span className = {onlineStyles['w-online__now']}>42</span>
           <span className = {onlineStyles['w-online__percentage']}>+7%</span>
         </div>
 
-        <p className = {onlineStyles['overview__text']}>Lorem ipsum doloret</p>
+        <p className = {onlineStyles['w-online__text']}>Lorem ipsum doloret</p>
 
       </div>
 

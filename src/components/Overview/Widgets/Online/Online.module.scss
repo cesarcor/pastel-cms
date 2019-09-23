@@ -2,6 +2,12 @@
   color: #FEFEFE;
   text-align: left;
 
+  &__heading{
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+
   &__now{
     font-size: 120px;
   }
@@ -11,7 +17,8 @@
   }
 
   &__text{
-    margin: 20px 0;
+    margin: 0;
+    font-size: 12px;
   }
 
 }
