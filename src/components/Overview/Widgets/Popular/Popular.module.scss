@@ -1,4 +1,14 @@
-/* .w-popular img{
-  max-width: 100%;
-  height: auto;
-} */
+.w-popular{
+  &____heading{
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+  }
+
+  &__list{
+    a{
+      color: #7977FF;
+      font-size: 12px;
+    }
+  }
+}

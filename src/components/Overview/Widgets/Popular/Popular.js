@@ -8,7 +8,13 @@ const popular = props => {
     return(
       <div className = {popularStyles["w-popular"]}>
 
-        <h4 className = {popularStyles["overview__text"]}>Popular Stories</h4>
+        <h4 className = {popularStyles["w-popular__heading"]}>Popular Stories</h4>
+
+        <ul className = {popularStyles["w-popular__list"]}>
+          <li><a href="#">Lorem ipsumet deleret et</a></li>
+          <li><a href="#">Lorem ipsumet deleret et</a></li>
+          <li><a href="#">Lorem ipsumet deleret et</a></li>
+        </ul>
 
       </div>
     );
