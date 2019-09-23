@@ -2,7 +2,14 @@
 
 .overview{
     @include item-layout();
-  }
+
+    &__heading{
+        opacity: 0.5;
+        font-size: 12px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
   
 .overview-item{
   position: relative;
